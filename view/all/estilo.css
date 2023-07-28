@@ -1,3 +1,42 @@
 img{
     width: 40px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./img/deposito.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.meotodos_http{
+    color: white;
+    opacity: 0.9 !important;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.POST{
+    padding: 20px;
+    width: 130%;
+    background-color: blue;
+    border: dashed 4px black;
+    
+    border-radius: 20px;
+}
+
+tbody{
+    background-color: bisque;
+    opacity: 0.6;
+}
+
+table{
+    width: 80% !important;
+    border-radius: 20px;
+    border: solid black 8px !important;
+}
