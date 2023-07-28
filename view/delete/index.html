@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Deletar por ID</h2>
+    <form action="">
+        <label for="">Digite o Id do produto que deseja Deletar: </label>
+ 
+        <Input style="width: 50px;" name="idProduto" id="idProduto" />
+        <br>
+        <button class="btn">Deletar</button>
+    </form>
+    <br>
+    <table class="invisivel" style="display: none;">
+        <thead style="background-color: black; color: white;">
+            <tr>
+                <td>id</td>
+                <td>nome</td>
+                <td>preco</td>
+            </tr>
+            <tbody id="corpo_tabela">
+
+            </tbody>
+        </thead>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
