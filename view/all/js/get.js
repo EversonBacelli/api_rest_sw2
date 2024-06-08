@@ -2,7 +2,7 @@ import editar from './put.js'
 import deletar from './delete.js'
 
 export default function buscarDados(){
-    let url = "http://localhost:8081/api_rest_sw2/controller/GET_produtos.php"
+    let url = "https://apirestsw2-production.up.railway.app/controlle/GET_produtos.php"
 
     fetch(url)
         .then(function (response) {
