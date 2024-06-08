@@ -1,6 +1,6 @@
 <?php 
     function realizarLeitura(){
-        $arquivo = "https://apirestsw2-production.up.railway.app/controller/produtos.txt";
+        $arquivo = "./produtos.txt";
         $texto = "";
         $fp = fopen($arquivo, 'r');
         
